@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 9998;
+}
+
+header h1 {
+    font-weight: bold, italic;
+    font-size: 20px;
+    color: black;
+    margin: 0;
+}
