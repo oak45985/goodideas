@@ -108,7 +108,16 @@ section h2 {
 }
 
 .flex2 {
-    flex: 50%;
+    flex: 30%;
+}
+
+.flex2 h2, .flex2 h3{
+    text-align: center;
+}
+
+.flex2 p{
+    /* padding-right: 40%; */
+    margin-right: 40%;
 }
 
 .goodideas {
@@ -138,10 +147,23 @@ section h2 {
     /* clip-path: polygon(100% 0, 0 0, 0 100%);  */
 }
 
-.skewtime {
+/* .skewtime {
     transform: skewX(-15deg);
     border: 3px solid black;
+    position: flex;
+} */
+
+.self {
+    flex: flex-start;
+    max-width: 10%;
+    /* transform: skewX(15deg); */
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    z-index: 9998;
 }
+
+/* .self img { */
+    /* max-width: 20%; */
+/* } */
 
 .skewtext {
     transform: skewX(15deg);
