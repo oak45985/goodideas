@@ -35,7 +35,7 @@ header h1 {
     font-size: 20px;
     color: black;
     margin: 10px, 10px, 10px, 10px;
-    z-index: 9998;
+    z-index: 9999;
 }
 
 header a {
@@ -103,7 +103,13 @@ section h2 {
     background-position: 80%;
 }
 
+.flex-row {
+    display: flex;
+}
 
+.flex2 {
+    flex: 50%;
+}
 
 .goodideas {
     position: relative;
@@ -119,14 +125,16 @@ section h2 {
     /* background-color: rgb(129, 42, 42); */
     float: left;
     shape-outside: polygon(100% 0, 0 0, 0 100%);
+    /* border: 3px solid black; */
     /* clip-path: polygon(100% 0, 0 0, 0 100%);  */
 }
 .triinv {
     width: 200px;
     height: 200px;
-    /* background-color: rgb(129, 42, 42); */
-    float: left;
+    /* background-color: rgb(129, 42, 42);  */
+    float: right;
     shape-outside: polygon(100% 0, 100% 100%, 0 100%);
+    /* border: 3px solid black; */
     /* clip-path: polygon(100% 0, 0 0, 0 100%);  */
 }
 
