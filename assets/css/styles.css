@@ -8,7 +8,9 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* HEADER */
 header {
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -16,12 +18,113 @@ header {
     position: sticky;
     top: 0;
     background-color: #fff;
-    z-index: 9998;
+}
+
+header img {
+    display: flex;
+    justify-content: flex-start;
+    flex-shrink: inherit;
+    position: fixed;
+    max-width: 40%;
+    z-index: 9999;
 }
 
 header h1 {
-    font-weight: bold, italic;
+    font-weight: bold;
+    font-style: italic;
     font-size: 20px;
     color: black;
-    margin: 0;
+    margin: 10px, 10px, 10px, 10px;
+    z-index: 9998;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    margin: 10px, 10px, 10px, 10px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: 1.55vw;
+}
+
+header nav ul li p {
+    display: none;
+}
+
+header nav ul li:hover {
+    opacity: .75;
+    text-shadow: black;
+    /*border: 3px solid black;*/
+}
+
+header nav ul li p:hover {
+    display: block;
+}
+
+/* HEADER END */
+
+section {
+    padding: 20px 40px 20px 20px;
+    flex: auto;
+    flex-wrap: wrap;
+}
+
+section h2 {
+    font-style: italic;
+    position: center;
+}
+
+.hero {
+    background-image: url(../images/IMG_0365.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed, -120px;
+    background-position: 80%;
+}
+
+
+
+.goodideas {
+    position: relative;
+    max-width: 40%;
+    z-index: 9999;
+    top: -120px;
+    left: -25px;
+}
+
+.tri {
+    width: 200px;
+    height: 200px;
+    /* background-color: rgb(129, 42, 42); */
+    float: left;
+    shape-outside: polygon(100% 0, 0 0, 0 100%);
+    /* clip-path: polygon(100% 0, 0 0, 0 100%);  */
+}
+.triinv {
+    width: 200px;
+    height: 200px;
+    /* background-color: rgb(129, 42, 42); */
+    float: left;
+    shape-outside: polygon(100% 0, 100% 100%, 0 100%);
+    /* clip-path: polygon(100% 0, 0 0, 0 100%);  */
+}
+
+.skewtime {
+    transform: skewX(-15deg);
+    border: 3px solid black;
+}
+
+.skewtext {
+    transform: skewX(15deg);
 }
