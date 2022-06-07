@@ -58,18 +58,28 @@ header nav ul li {
     font-size: 1.55vw;
 }
 
-header nav ul li p {
-    display: none;
-}
+/* header nav ul li p { */
+    /* display: none; */
+/* } */
 
 header nav ul li:hover {
     opacity: .75;
     text-shadow: black;
-    /*border: 3px solid black;*/
 }
 
 header nav ul li p:hover {
     display: block;
+}
+
+header nav ul li.nav {
+    color: #fff;
+    /* opacity: 0; */
+}
+
+header nav ul li.nav:hover {
+    color: black;
+    opacity: .75;
+    font-style: italic;
 }
 
 /* HEADER END */
