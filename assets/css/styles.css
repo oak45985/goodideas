@@ -123,7 +123,7 @@ section h3 {
 }
 
 /*content styles */
-.flex {
+.flex1 {
     display: flex;
     flex-wrap: nowrap;
     width: 33%;
@@ -131,7 +131,7 @@ section h3 {
     margin: auto;
 }
 
-.flex p {
+.flex1 p {
     padding-left: 2%;
     font-size: 1vw;
     margin-top: auto;
@@ -153,5 +153,46 @@ section h3 {
 .self {
     max-width: 40%;
     max-height:100%;
+}
 
+/* images for work */
+.flex2 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+.white2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(255, 255, 255, 0.25);
+    /* clip-path: polygon(30% 0, 70% 0, 70% 100%, 30% 100%); */
+}
+
+.firstimage {
+    display: block;
+    max-width: 95%;
+    margin:auto;
+}
+
+.remainimage {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.remainimage img{
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+    max-width: 30%;
+    align-content: center;
+    padding-top: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
+    justify-content: center;
 }
