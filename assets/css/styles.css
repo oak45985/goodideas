@@ -6,7 +6,7 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    /* background: url(../images/goodideas-01.png); */
+    background: url(../images/background.png);
 }
 
 /* HEADER */
@@ -126,8 +126,7 @@ section h3 {
 .flex {
     display: flex;
     flex-wrap: nowrap;
-    border: 1px solid blue;
-    width: 50%;
+    width: 33%;
     justify-content: center;
     margin: auto;
 }
@@ -135,6 +134,15 @@ section h3 {
 .flex p {
     padding-left: 2%;
     font-size: 1vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.white {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(255, 255, 255, 0.25);
+    clip-path: polygon(30% 0, 70% 0, 70% 100%, 30% 100%);
 }
 
 
@@ -143,15 +151,7 @@ section h3 {
 }
 
 .self {
-    max-width: 20%;
+    max-width: 40%;
     max-height:100%;
 
-}
-
-/* .self img { */
-    /* max-width: 20%; */
-/* } */
-
-.skewtext {
-    transform: skewX(15deg);
 }
