@@ -364,3 +364,93 @@ footer p {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 500px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+        padding-top: 10%;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul li {
+        padding: 10px 15px;
+        font-weight: bold;
+        font-size: 1.55vw;
+    }
+
+    header nav ul li a {
+        font-size: 3vw;
+    }
+
+    section h2 {
+        margin: auto;
+        text-align: center;
+        padding-bottom: .50%;
+        font-style: italic;
+        font-size: 4vw;
+    }
+
+    .white {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background-color: rgba(255, 255, 255, 0.25);
+        clip-path: polygon(15% 0, 85% 0, 85% 100%, 15% 100%);
+    }
+
+    .flex1 {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 65%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .flex1 p {
+        padding-left: 2%;
+        font-size: 2vw;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .goodideas {
+        display: flex;
+        justify-content: center;
+        max-width: 40%;
+        z-index: 9999;
+        top: -200px;
+        left: auto;
+        margin: auto;
+    }
+
+    .formlabel label {
+        font-size: 2vw;
+        display: flex;
+    }
+
+    .contact {
+    display: block;
+    padding: 2%;
+    font-size: 2vw;
+    width: 100%;
+    margin-bottom: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    margin-top: 2%;
+    }
+    .contactbutton {
+        background-color: black;
+        color: #fff;
+        font-size: 2vw;
+        font-style: italic;
+        font-weight: bold;
+        border: none;
+        padding: 3%;
+        width: 100%;
+    }
+}
