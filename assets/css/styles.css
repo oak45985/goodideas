@@ -275,7 +275,7 @@ footer p {
     color: black;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 800px) {
     header {
         padding-bottom: 0;
         justify-content: center;
@@ -289,45 +289,78 @@ footer p {
     }
 
     header nav ul {
-        margin-top: 20px;
+        margin-top: 40px;
         width: 100%;
         justify-content: center;
     }
 
     header nav ul li a {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 
-    /* footer h2, footer div {
+    section h2 {
+        margin: auto;
         text-align: center;
-        width: 100%;
-    } */
+        padding-bottom: .50%;
+        font-style: italic;
+        font-size: 4vw;
+    }
+
+    .white {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background-color: rgba(255, 255, 255, 0.25);
+        clip-path: polygon(15% 0, 85% 0, 85% 100%, 15% 100%);
+    }
+
+    .flex1 {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 65%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .flex1 p {
+        padding-left: 2%;
+        font-size: 2vw;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 
     .goodideas {
-        position: relative;
+        display: flex;
+        justify-content: center;
         max-width: 40%;
         z-index: 9999;
-        top: -215px;
-        margin:auto;
+        top: -200px;
+        left: auto;
+        margin: auto;
     }
 
-    .hero-cta, .hero-form {
+    .formlabel label {
+        font-size: 2vw;
+        display: flex;
+    }
+
+    .contact {
+    display: block;
+    padding: 2%;
+    font-size: 2vw;
+    width: 100%;
+    margin-bottom: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    margin-top: 2%;
+    }
+    .contactbutton {
+        background-color: black;
+        color: #fff;
+        font-size: 2vw;
+        font-style: italic;
+        font-weight: bold;
+        border: none;
+        padding: 3%;
         width: 100%;
-    }
-
-    .hero-cta {
-        text-align: center;
-    }
-    
-    .section-title {
-        width: 80%;
-    }
-
-    .trainer {
-        flex: 0 70%;
-    }
-
-    .contact-info iframe {
-        flex: 1 100%;
     }
 }
