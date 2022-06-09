@@ -6,6 +6,7 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    /* background: url(../images/goodideas-01.png); */
 }
 
 /* HEADER */
@@ -58,10 +59,6 @@ header nav ul li {
     font-size: 1.55vw;
 }
 
-/* header nav ul li p { */
-    /* display: none; */
-/* } */
-
 header nav ul li:hover {
     opacity: .75;
     text-shadow: black;
@@ -85,80 +82,70 @@ header nav ul li.nav:hover {
 /* HEADER END */
 
 section {
-    padding: 20px 40px 20px 20px;
-    flex: auto;
+    padding: 20px 40px 20px 40px;
+    display: block;
     flex-wrap: wrap;
+    justify-self: center;
+    justify-content: center;
+    margin: auto;
 }
 
 section h2 {
+    margin: auto;
+    text-align: center;
+    padding-bottom: .50%;
     font-style: italic;
-    position: center;
+    font-size: 3vw;
 }
 
+section h3 {
+    font-style: bold;
+    
+}
+.side {
+    font-style: italic;
+    margin: auto;
+}
 .hero {
     background-image: url(../images/IMG_0365.gif);
     background-size: cover;
     background-position: center;
     background-attachment: fixed, -120px;
-    background-position: 80%;
-}
-
-.flex-row {
-    display: flex;
-}
-
-.flex2 {
-    flex: 30%;
-}
-
-.flex2 h2, .flex2 h3{
-    text-align: center;
-}
-
-.flex2 p{
-    /* padding-right: 40%; */
-    margin-right: 40%;
+    background-position: 100%;
 }
 
 .goodideas {
     position: relative;
     max-width: 40%;
     z-index: 9999;
-    top: -120px;
-    left: -25px;
+    top: -90px;
+    left: -10px;
 }
 
-.tri {
-    width: 200px;
-    height: 200px;
-    /* background-color: rgb(129, 42, 42); */
-    float: left;
-    shape-outside: polygon(100% 0, 0 0, 0 100%);
-    /* border: 3px solid black; */
-    /* clip-path: polygon(100% 0, 0 0, 0 100%);  */
-}
-.triinv {
-    width: 200px;
-    height: 200px;
-    /* background-color: rgb(129, 42, 42);  */
-    float: right;
-    shape-outside: polygon(100% 0, 100% 100%, 0 100%);
-    /* border: 3px solid black; */
-    /* clip-path: polygon(100% 0, 0 0, 0 100%);  */
+/*content styles */
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid blue;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
 }
 
-/* .skewtime {
-    transform: skewX(-15deg);
-    border: 3px solid black;
-    position: flex;
-} */
+.flex p {
+    padding-left: 2%;
+    font-size: 1vw;
+}
+
+
+.contain {
+    width: auto;
+}
 
 .self {
-    flex: flex-start;
-    max-width: 10%;
-    /* transform: skewX(15deg); */
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    z-index: 9998;
+    max-width: 20%;
+    max-height:100%;
+
 }
 
 /* .self img { */
