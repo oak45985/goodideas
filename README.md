@@ -15,6 +15,7 @@ Attempts will be made to create something that looks unique. Current CSS knowled
  ![desktop](./assets/images/goodideas-01update.png)
 
  ![small screen](./assets/images/goodideas-02update.png)
+ 
+### SITE LINK: https://oak45985.github.io/goodideas/
 
-
- ### This site made by John Logan
+### This site made by John Logan
