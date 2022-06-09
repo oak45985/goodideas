@@ -9,9 +9,12 @@ The goal of this project (as of 6.5.22) is to present and push my abilities with
 Attempts will be made to create something that looks unique. Current CSS knowledge will be pushed by opting for more difficult styling (gifs, slanted presentation options, higher graphic complexity).
 
 ## Models
- ![desktop](./assets/images/goodideas-01.png)
 
- ![small screen](./assets/images/goodideas-02.png)
+# NOTE: I updated the goal/look of the mockup and didn't upload to README until project finalized. Amended as original project was too ambitious for timetable.
+
+ ![desktop](./assets/images/goodideas-01update.png)
+
+ ![small screen](./assets/images/goodideas-02update.png)
 
 
  ### This site made by John Logan
